@@ -1,3 +1,5 @@
+package Java;
+
 public class Dough extends Food {
 
     Flour flour;
@@ -6,7 +8,7 @@ public class Dough extends Food {
 
     @Override
     public String toString() {
-        return "Dough{" +
+        return "Java.Dough{" +
                 "flour=" + flour +
                 ", oil=" + oil +
                 ", water=" + water +

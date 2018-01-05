@@ -1,8 +1,10 @@
+package Java;
+
 public class Main {
 
     public static void main(String args[]){
 
-        //Assign an object of Consumer class in instance variable name 'consumer'
+        //Assign an object of Java.Consumer class in instance variable name 'consumer'
         Consumer consumer = new Consumer();
 
         //

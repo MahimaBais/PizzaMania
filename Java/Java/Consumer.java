@@ -1,7 +1,8 @@
+package Java;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class Consumer extends Person {
 
@@ -44,8 +45,8 @@ public class Consumer extends Person {
         System.out.println("1 - Deluxe Veggie");
         System.out.println("2 - Veg Extravaganza");
         System.out.println("3 - 5 Pepper");
-        System.out.println("4 - Double Cheese Margherita");
-        System.out.println("5 - Cheese N Corn");
+        System.out.println("4 - Double Java.Cheese Margherita");
+        System.out.println("5 - Java.Cheese N Corn");
         System.out.println("6 - Fresh Veggies");
         System.out.println("7 - Panner Makhani");
 
@@ -62,10 +63,10 @@ public class Consumer extends Person {
                 pizzaName = "5 Pepper";
                 break;
             case 4:
-                pizzaName = "Double Cheese Margherita";
+                pizzaName = "Double Java.Cheese Margherita";
                 break;
             case 5:
-                pizzaName = "Cheese N Corn";
+                pizzaName = "Java.Cheese N Corn";
                 break;
             case 6:
                 pizzaName = "Fresh Veggies";
@@ -93,21 +94,21 @@ public class Consumer extends Person {
 
         System.out.println("Choose crust number from these choices");
         System.out.println("****************************************\n");
-        System.out.println("1 - Cheese Burst ");
+        System.out.println("1 - Java.Cheese Burst ");
         System.out.println("2 - Wheat Thin Crust");
-        System.out.println("3 - Fresh Pan Pizza");
+        System.out.println("3 - Fresh Java.Pan Java.Pizza");
 
         selection = input.nextInt();
 
         switch (selection){
             case 1:
-                crustType = "Cheese Burst";
+                crustType = "Java.Cheese Burst";
                 break;
             case 2:
                 crustType = "Wheat Thin Crust";
                 break;
             case 3:
-                crustType = "Fresh Pan Pizza";
+                crustType = "Fresh Java.Pan Java.Pizza";
                 break;
             default:
                 System.out.println("Sorry you have selected wrong number.");
@@ -163,19 +164,19 @@ public class Consumer extends Person {
 
         System.out.println("Which toppings do you want?");
         System.out.println("*****************************\n");
-        System.out.println("1 - Cheese ");
+        System.out.println("1 - Java.Cheese ");
         System.out.println("2 - Tomato");
         System.out.println("3 - Corn");
         System.out.println("4 - Jalapeno");
         System.out.println("5 - Onion");
-        System.out.println("6 - Olive");
+        System.out.println("6 - Java.Olive");
 
         do {
             selection = input.nextInt();
 
             switch (selection){
                 case 1:
-                    topping = "Cheese";
+                    topping = "Java.Cheese";
                     break;
                 case 2:
                     topping = "Tomato";
@@ -190,7 +191,7 @@ public class Consumer extends Person {
                     topping = "Onion";
                     break;
                 case 6:
-                    topping = "Olive";
+                    topping = "Java.Olive";
                     break;
                 default:
                     topping = "-1";

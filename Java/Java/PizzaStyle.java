@@ -1,3 +1,5 @@
+package Java;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +12,7 @@ public class PizzaStyle {
 
     @Override
     public String toString() {
-        return "Pizza {" +
+        return "Java.Pizza {" +
                 "pizzaName='" + pizzaName + '\'' +
                 ", crustType='" + crustType + '\'' +
                 ", crustSize='" + crustSize + '\'' +

@@ -1,12 +1,14 @@
-public class Water {
+package Java;
 
-    String type = "Warm";
+public class Flour extends Food {
+
+    String name;
     String quantity;
 
     @Override
     public String toString() {
-        return "Water{" +
-                "type='" + type + '\'' +
+        return "Java.Flour{" +
+                "name='" + name + '\'' +
                 ", quantity= " + quantity +
                 '}';
     }

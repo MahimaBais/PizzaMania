@@ -1,3 +1,5 @@
+package Java;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +23,7 @@ public class Base extends Food implements Bakeable,Cookable{
     BaseWithTopping applyTopping(Topping t) {
 
        // System.out.println(t+ " is applied on base");
-//      BaseWithTopping bwt = new BaseWithTopping(this,toppings);
+//      Java.BaseWithTopping bwt = new Java.BaseWithTopping(this,toppings);
         BaseWithTopping bwt = new BaseWithTopping(this);
         bwt.applyTopping(t);
 

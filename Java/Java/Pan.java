@@ -1,3 +1,5 @@
+package Java;
+
 public class Pan {
 
     CookedFood cf;
@@ -7,12 +9,12 @@ public class Pan {
     }
 
     void putPanOnBurner(){
-        System.out.println("Pan is over the burner");
+        System.out.println("Java.Pan is over the burner");
 
     }
 
     void preHeatPan(){
-        System.out.println("Pan is heating on medium flame.");
+        System.out.println("Java.Pan is heating on medium flame.");
 
     }
 
@@ -22,13 +24,13 @@ public class Pan {
     }
 
     void cover(){
-        System.out.println("Pan is covered with vessel");
+        System.out.println("Java.Pan is covered with vessel");
 
     }
 
     CookedFood remove(){
 
-        System.out.println("Chef is taking out the pizza.");
+        System.out.println("Java.Chef is taking out the pizza.");
         return cf;
 
     }

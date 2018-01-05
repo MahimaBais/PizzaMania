@@ -1,3 +1,5 @@
+package Java;
+
 public class Oil {
 
      String name;
@@ -5,7 +7,7 @@ public class Oil {
 
      @Override
      public String toString() {
-          return "Oil{" +
+          return "Java.Oil{" +
                   "name='" + name + '\'' +
                   ", quantity= " + quantity +
                   '}';

@@ -1,3 +1,5 @@
+package Java;
+
 public class WheatThinCrust extends Base {
 
     int heatTemperature = 300;

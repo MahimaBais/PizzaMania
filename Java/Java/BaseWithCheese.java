@@ -1,3 +1,5 @@
+package Java;
+
 public class BaseWithCheese extends Base {
 
     Cheese cheese;

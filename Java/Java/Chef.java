@@ -1,3 +1,5 @@
+package Java;
+
 public class Chef extends Person {
 
     String name;
@@ -26,7 +28,7 @@ public class Chef extends Person {
 
                 break;
 
-            case "Cheese Burst":
+            case "Java.Cheese Burst":
 
                 flour.name = "All Purpose";
                 flour.quantity = "1 bowl";
@@ -35,11 +37,11 @@ public class Chef extends Person {
 
                 break;
 
-            case "Fresh Pan Pizza":
+            case "Fresh Java.Pan Java.Pizza":
 
                 flour.name = "All Purpose";
                 flour.quantity = "1 bowl";
-                oil.name = "Olive";
+                oil.name = "Java.Olive";
                 oil.quantity = "3 tablespoon";
 
                 break;
@@ -67,17 +69,17 @@ public class Chef extends Person {
                 timing = wheatThinCrust.timings;
                 break;
 
-            case "Cheese Burst":
+            case "Java.Cheese Burst":
                 Cheese cheese = new Cheese("Mozzarella");
                 BaseWithCheese baseWithCheese = base.applyCheese(cheese);
                 Base newbase = makeBase(dough);
                 CheeseBurst cheeseBurst = baseWithCheese.applyNewBase(newbase);
-                System.out.println("Cheese burst crust is ready to apply sauce and toppings");
+                System.out.println("Java.Cheese burst crust is ready to apply sauce and toppings");
                 temperature = cheeseBurst.heatTemperature;
                 timing = cheeseBurst.timings;
                 break;
 
-            case "Fresh Pan Pizza":
+            case "Fresh Java.Pan Java.Pizza":
 
                 FreshPanPizza freshPanPizza = new FreshPanPizza();
                 temperature = freshPanPizza.heatTemperature;
@@ -92,7 +94,7 @@ public class Chef extends Person {
         }
 
         Sauce sauce = new Sauce();
-        sauce.name = "Pizza Sauce";
+        sauce.name = "Java.Pizza Java.Sauce";
 
 
         base.applySauce(sauce);
@@ -105,7 +107,7 @@ public class Chef extends Person {
         }
 
 
-        if(ps.crustType == "Fresh Pan Pizza"){
+        if(ps.crustType == "Fresh Java.Pan Java.Pizza"){
             CookedFood cookedFood = bakeOnPan(base);
             pizza = (Pizza) cookedFood;
 
@@ -152,7 +154,7 @@ public class Chef extends Person {
 
     private Dough mix(Flour flour, Water water, Oil oil) {
 
-        System.out.println("Chef mixed Ingredients : " + flour + "," + water + "," + oil);
+        System.out.println("Java.Chef mixed Ingredients : " + flour + "," + water + "," + oil);
         Dough dough = new Dough();
         System.out.println("Now dough is ready but to make base grease it well,cover it and wait for an hour");
 
@@ -162,7 +164,7 @@ public class Chef extends Person {
 
     private Base makeBase(Dough d) {
 
-        System.out.println("Base is ready after rolling the dough");
+        System.out.println("Java.Base is ready after rolling the dough");
 
         return new Base();
     }

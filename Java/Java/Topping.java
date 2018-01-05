@@ -1,3 +1,5 @@
+package Java;
+
 public class Topping extends Food{
 
     String name;
@@ -8,7 +10,7 @@ public class Topping extends Food{
 
     @Override
     public String toString() {
-        return "Topping{" +
+        return "Java.Topping{" +
                 "name='" + name + '\'' +
                 '}';
     }
